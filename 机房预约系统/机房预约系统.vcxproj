@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="manager.cpp" />
     <ClCompile Include="student.cpp" />
-    <ClCompile Include="student.h" />
+    <ClInclude Include="student.h" />
     <ClCompile Include="teacher.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
