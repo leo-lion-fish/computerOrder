@@ -131,7 +131,7 @@
     <ClCompile Include="student.cpp" />
     <ClCompile Include="student.h" />
     <ClCompile Include="teacher.cpp" />
-    <ClCompile Include="机房预约系统.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="globalFile.h" />

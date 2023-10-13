@@ -6,5 +6,5 @@ class Identity
 public:
 	virtual void operMenu() = 0;
 	string m_Name;
-	int m_Pwd;
+	string m_Pwd;
 };
