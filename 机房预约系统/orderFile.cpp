@@ -14,12 +14,12 @@ orderFile::orderFile()
 	while (ifs >> date && ifs >> interval && ifs >> stuId && ifs >> stuName && ifs >> roomId && ifs >> status)
 	{
 		//²âÊÔ´úÂë
-		cout << date << endl;
+		/*cout << date << endl;
 		cout << interval << endl;
 		cout << stuId << endl;
 		cout << stuName << endl;
 		cout << roomId << endl;
-		cout << status << endl;
+		cout << status << endl;*/
 
 		string key;
 		string value;

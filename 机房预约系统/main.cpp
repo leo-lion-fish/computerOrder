@@ -8,6 +8,44 @@
 #include"manager.h"
 using namespace std;
 
+/*将不同的分支提供出来
+查看所有预约
+审核预约
+注销登录
+实现注销功能*/
+void teacherMenu(Identity* &teacher)
+{
+	while(true)
+	{
+		//教师菜单
+		teacher->operMenu();
+		Teacher* tea = (Teacher*)teacher;
+		int select = 0;
+		cin >>select;
+		switch (select)
+		{
+		case 1:
+			tea->showAllOrder();
+			break;
+		case 2:
+			tea->validOrder();
+			break;
+		case 0:
+			delete teacher;
+			cout << "注销成功" << endl;
+			system("pause");
+			system("cls");
+			return;
+			break;
+		default:
+			cout << "输入有误，请重新输入" << endl;
+			system("pause");
+			system("cls");
+			break;
+		}
+	}
+}
+
 void studentMenu(Identity* &student)
 {
 	while (true)
@@ -155,6 +193,7 @@ void Login(string fileName, int type)
 				system("pause");
 				system("cls");
 				person = new Teacher(id, name, pwd);
+				teacherMenu(person);
 				return;
 			}
 		}
