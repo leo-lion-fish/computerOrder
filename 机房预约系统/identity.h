@@ -1,5 +1,7 @@
 #pragma once
 #include<iostream>
+#include "globalFile.h"
+#include <fstream>
 using namespace std;
 class Identity
 {
