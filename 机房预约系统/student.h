@@ -22,4 +22,5 @@ public:
 	void	cancelOrder();
 	
 	int m_Id;
+	vector<computerRoom>vCom;
 };

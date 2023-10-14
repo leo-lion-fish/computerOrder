@@ -4,9 +4,8 @@ using namespace std;
 #include"identity.h"
 #include"student.h"
 #include"teacher.h"
-#include"computerRoom.h"
-#include<vector>
-#include<algorithm>
+
+
 class Manager :public Identity
 {
 public:

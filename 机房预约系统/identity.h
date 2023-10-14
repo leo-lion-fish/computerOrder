@@ -2,6 +2,10 @@
 #include<iostream>
 #include "globalFile.h"
 #include <fstream>
+#include"computerRoom.h"
+#include<vector>
+#include<algorithm>
+#include"orderFile.h"
 using namespace std;
 class Identity
 {
